@@ -1,2 +1,4 @@
-(ns hello-world.hello)
-(.write js/document "<p>Hello, world!</p>")
+(ns clojure-start.hello)
+
+(defn ^:export main []
+  (.write js/document "<p>Hello, world!</p>"))
