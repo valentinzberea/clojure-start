@@ -13,13 +13,13 @@ lein
 To run the clojure program:
 
 ```zsh
-    $ lein run
+    $ lein deps && lein run
 ```
 
 To see the clojure script playground:
 
 ```shell
-    $ lein cljsbuild auto
+    $ lein deps && lein cljsbuild auto
 ```
 
 ```shell
